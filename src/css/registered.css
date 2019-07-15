@@ -1,0 +1,236 @@
+@charset "UTF-8";
+.head {
+  padding: 20px 0 0;
+  width: 100%;
+  margin-bottom: 1px;
+}
+.head .warp {
+  margin: 0 auto;
+  width: 990px;
+}
+.head .warp .logo {
+  height: 63px;
+  padding-top: 10px;
+  width: 427px;
+  clear: both;
+}
+.head .warp .logo a {
+  color: #333;
+  text-decoration: none;
+}
+
+.main {
+  width: 990px;
+  height: 480px;
+  margin: auto;
+}
+.main .c999 {
+  margin: 0 auto;
+  width: 780px;
+  line-height: 30px;
+  text-align: right;
+  padding-right: 10px;
+}
+.main .c999 a {
+  color: #999;
+}
+.main .c888 {
+  margin: 0 auto;
+  width: 780px;
+  padding: 0;
+  border: 1px solid #efefef;
+  border-radius: 2px;
+  box-shadow: 0 0 8px #E5E5E5;
+}
+.main .c888 p {
+  font-size: 16px;
+  font-family: microsoft yahei;
+  color: #888;
+  background: #f8f8f8;
+  padding: 4px 10px;
+  border-bottom: 1px solid #efefef;
+  text-shadow: 1px 1px #fff;
+  font-weight: 700;
+}
+.main .table {
+  width: 780px;
+  height: 408px;
+}
+.main .table .table_left {
+  width: 50%;
+  padding: 55px 0 80px 200px;
+  float: left;
+  position: relative;
+}
+.main .table .table_left .tishi {
+  position: absolute;
+  top: 2px;
+  left: 270px;
+  padding: 2px 5px 2px 15px;
+  padding-left: 21px;
+  margin-left: 10px;
+  display: inline;
+  border: 1px solid #99D073;
+  white-space: nowrap;
+  text-align: left;
+  color: #539A33;
+  background: #EBF7E3 url(../img/success.gif) no-repeat 3px;
+  display: none;
+}
+.main .table .table_left label {
+  text-align: right;
+  color: #666;
+  width: 75px;
+  padding: 0;
+  line-height: 22px;
+  vertical-align: middle;
+  font-size: 14px;
+  font-weight: normal;
+  display: inline-block;
+  margin-top: 10px;
+}
+.main .table .table_left #user {
+  width: 220px;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  vertical-align: middle;
+  color: #aaa;
+  height: 22px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.main .table .table_left #psw {
+  width: 220px;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  color: #aaa;
+  height: 22px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.main .table .table_left #topsw {
+  width: 220px;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  color: #aaa;
+  height: 22px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.main .table .table_left #code {
+  width: 65px;
+  border: 1px solid #ccc;
+  padding: 3px 5px;
+  color: #aaa;
+  height: 22px;
+  line-height: 22px;
+  margin-top: 10px;
+}
+.main .table .table_left .yanzhengma {
+  display: inline-block;
+  /* clear: both; */
+  float: right;
+  margin-top: 7px;
+  line-height: 38px;
+  margin-right: 20px;
+  font-size: 15px;
+  opacity: 0;
+}
+.main .table .table_left .change {
+  display: inline-block;
+  clear: both;
+  margin-top: 7px;
+  float: right;
+  line-height: 38px;
+  margin-right: 130px;
+  opacity: 0;
+}
+.main .table .table_left #checkbox {
+  display: block;
+  margin-top: 40px;
+  margin-left: 74px;
+  float: left;
+}
+.main .table .table_left span {
+  display: block;
+  margin-top: 38px;
+  float: left;
+}
+.main .table .table_left a {
+  display: block;
+  text-decoration: none;
+  margin-top: 38px;
+  margin-left: 20px;
+  float: left;
+  color: #3366dd;
+}
+.main .table .table_left #submit {
+  background: url(../img/scn04.png) no-repeat 0 -198px;
+  width: 89px;
+  height: 38px;
+  text-indent: 0;
+  color: #fff;
+  font-weight: bold;
+  cursor: pointer;
+  margin-top: 52px;
+  margin-left: -225px;
+}
+.main .table .table_right {
+  float: left;
+  width: 24%;
+  padding-top: 10px;
+  border-left: 1px dashed #ccc;
+  height: 300px;
+}
+.main .table .table_right p {
+  font-weight: bold;
+  margin-top: 87px;
+  margin-left: 74px;
+  text-align: center;
+  margin-bottom: 10px;
+}
+.main .table .table_right a {
+  display: inline-block;
+  width: 91px;
+  height: 32px;
+  line-height: 30px;
+  text-align: center;
+  color: #c66;
+  font-size: 14px;
+  font-weight: 700;
+  background: url(../img/foot_list6.png) no-repeat;
+  margin-left: 80px;
+}
+.main .table .table_right img {
+  margin-left: 50px;
+  margin-top: 73px;
+}
+
+.foot {
+  border-top: 2px solid #CE3C3B;
+  background: none;
+  width: 980px;
+  margin: 30px auto 0;
+}
+.foot .row2 {
+  text-align: center;
+  padding: 20px 0;
+}
+.foot .row2 span {
+  color: #ccc;
+  font-family: '瀹嬩綋';
+  width: 1110px;
+  height: 12px;
+}
+.foot .row2 span a {
+  color: #777;
+  width: 60px;
+  height: 12px;
+}
+.foot .row2 s {
+  font-size: 20px;
+  color: #c00;
+  font-weight: 700;
+}
+
+/*# sourceMappingURL=registered.css.map */

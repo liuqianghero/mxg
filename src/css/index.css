@@ -1,0 +1,1691 @@
+@charset "UTF-8";
+#famousShoes {
+  width: 100%;
+  height: 100%;
+  margin: auto;
+  position: relative;
+}
+#famousShoes #toubu {
+  width: 100%;
+  height: 25px;
+  border-bottom: 1px solid #e5e5e5;
+  background: #eeeeee;
+}
+#famousShoes #toubu .contaion {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+#famousShoes #toubu .contaion .nav1 {
+  margin-right: 90px;
+  padding-top: 4px;
+}
+#famousShoes #toubu .contaion .nav1 li {
+  height: 16px;
+  float: left;
+  border-right: 1px solid #d5d5d5;
+  line-height: 16px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list1 {
+  width: 180px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list1 #sign {
+  display: inline-block;
+  margin-right: 20px;
+  color: #ff6600;
+  font-size: 12px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list1 #register {
+  margin-right: 16px;
+  color: #ff6600;
+  font-size: 12px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list2 {
+  width: 100px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list2 #my {
+  font-size: 12px;
+  color: #666;
+  padding-left: 15px;
+  display: inline-block;
+  padding-right: 5px;
+  position: relative;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list2 #my::after {
+  content: '';
+  position: absolute;
+  background: url(../img/jiantou.jpg);
+  width: 8px;
+  height: 10px;
+  top: 4px;
+  left: 85px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list2 .drop {
+  position: absolute;
+  background: #fff;
+  top: 26px;
+  right: 572px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 3px #ccc;
+  display: none;
+  z-index: 5;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list2 .drop .panel {
+  width: 165px;
+  padding-right: 0;
+  overflow: hidden;
+  padding: 10px 10px 10px 15px;
+  min-width: 65px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list2 .drop .panel ul li {
+  border: 0;
+  float: left;
+  height: 27px;
+  width: 50px;
+  padding-left: 2px;
+  line-height: 26px;
+  background: url(../img/head.png) no-repeat 0 26px;
+  margin-right: 15px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list2 .drop .panel ul li a {
+  position: relative;
+  z-index: 8;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list3 {
+  width: 115px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list3 #phone {
+  color: #666;
+  font-size: 12px;
+  padding-left: 30px;
+  position: relative;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list3 #phone::after {
+  content: '';
+  position: absolute;
+  background: url(../img/jiantou.jpg);
+  width: 8px;
+  height: 10px;
+  top: 2px;
+  left: 98px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list3 #phone::before {
+  content: '';
+  position: absolute;
+  background: url(../img/shouji.jpg);
+  width: 21px;
+  height: 17px;
+  top: -2px;
+  left: 6px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list3 .drop {
+  padding: 10px;
+  right: -1px;
+  /* width: 210px; */
+  position: absolute;
+  background: #fff;
+  top: 26px;
+  right: 410px;
+  border: 1px solid #ccc;
+  box-shadow: 0 0 3px #ccc;
+  display: none;
+  z-index: 5;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list3 .drop img {
+  margin-right: 10px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list4 {
+  width: 90px;
+  text-align: center;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list4 #collection {
+  color: #333;
+  font-weight: 550;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list4 #collection:hover {
+  color: red;
+  text-decoration: underline;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list5 {
+  width: 154px;
+}
+#famousShoes #toubu .contaion .nav1 .nav_list5 img:nth-child(1) {
+  display: inline-block;
+  margin-left: 15px;
+  margin-right: 5px;
+}
+#famousShoes #header {
+  width: 100%;
+  height: 77px;
+}
+#famousShoes #header .contaion {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+#famousShoes #header .contaion .header-left {
+  width: 450px;
+  height: 77px;
+  position: relative;
+  float: left;
+}
+#famousShoes #header .contaion .header-left h1 {
+  background: url(../img/logo.png) no-repeat center center;
+  width: 262px;
+  height: 77px;
+  margin-left: 30px;
+  float: left;
+}
+#famousShoes #header .contaion .header-left .professional {
+  font-size: 15px;
+  color: #5f5f5e;
+  font-weight: 600;
+  margin-left: 16px;
+  position: absolute;
+  top: 40px;
+  right: 0;
+}
+#famousShoes #header .contaion .header-center {
+  width: 340px;
+  height: 100%;
+  margin-left: 34px;
+  float: left;
+  position: relative;
+}
+#famousShoes #header .contaion .header-center #texval {
+  width: 287px;
+  height: 30px;
+  border: 2px solid #d5d5d5;
+  box-sizing: border-box;
+  position: absolute;
+  top: 16px;
+  left: 0;
+}
+#famousShoes #header .contaion .header-center #sousuobtn {
+  width: 65px;
+  height: 30px;
+  color: #fff;
+  font-size: 16px;
+  position: absolute;
+  top: 16px;
+  right: 0;
+  background: #444444;
+  text-align: center;
+}
+#famousShoes #header .contaion .header-center ul {
+  display: flex;
+  width: 310px;
+  justify-content: space-between;
+  position: absolute;
+  left: 0;
+  bottom: 12px;
+  font-size: 11px;
+}
+#famousShoes #header .contaion .header-center ul li:nth-child(1) {
+  color: #ccc;
+}
+#famousShoes #header .contaion .header-right {
+  width: 126px;
+  height: 34px;
+  border: 1px solid #d7d7d7;
+  box-sizing: border-box;
+  border-radius: 2px;
+  background: #eeeeee;
+  float: left;
+  text-align: center;
+  margin-left: 70px;
+  margin-top: 20px;
+}
+#famousShoes #header .contaion .header-right p {
+  font-size: 12px;
+  color: #666;
+  line-height: 34px;
+  font-weight: 550;
+  position: relative;
+  margin-left: 40px;
+}
+#famousShoes #header .contaion .header-right p::before {
+  content: '';
+  position: absolute;
+  background: url(../img/shpping.gif);
+  width: 21px;
+  height: 17px;
+  top: 7px;
+  left: -26px;
+}
+#famousShoes #header .contaion .header-right:hover {
+  background: #f07c01;
+}
+#famousShoes .navigation {
+  width: 100%;
+  height: 34px;
+  background: #a21f25;
+}
+#famousShoes .navigation .contaion {
+  width: 1100px;
+  height: 34px;
+  margin: auto;
+}
+#famousShoes .navigation .contaion .nav2 {
+  width: 733px;
+  height: 34px;
+  float: left;
+}
+#famousShoes .navigation .contaion .nav2 > li {
+  line-height: 34px;
+  font-size: 12px;
+  color: #fff;
+  font-weight: 600;
+  text-align: center;
+  float: left;
+  background: #a21f25;
+  position: relative;
+}
+#famousShoes .navigation .contaion .nav2 > li:nth-child(-n+6)::after {
+  content: '';
+  height: 14px;
+  width: 2px;
+  background: #b6242b;
+  position: absolute;
+  top: 10px;
+  right: 0;
+}
+#famousShoes .navigation .contaion .nav2 > li:nth-child(n+2):hover {
+  background: #444444;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 {
+  width: 188px;
+  background: #b9363d;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 {
+  width: 191px;
+  height: 385px;
+  background: #1f1909;
+  position: relative;
+  z-index: 10;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li {
+  width: 191px;
+  height: 43px;
+  font-size: 11px;
+  color: #fff;
+  position: relative;
+  text-align: left;
+  padding-left: 45px;
+  box-sizing: border-box;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li::before {
+  content: '';
+  height: 28px;
+  width: 26px;
+  background: url(../img/navcats_icon.png);
+  position: absolute;
+  top: 2px;
+  /* right: 10px; */
+  left: 10px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li::after {
+  content: '';
+  height: 8px;
+  width: 4px;
+  background: url(../img/sanjiaoxin.png);
+  position: absolute;
+  top: 14px;
+  /* right: 10px; */
+  right: 10px;
+  display: none;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul {
+  display: none;
+  height: 385px;
+  width: 320px;
+  position: absolute;
+  top: 0px;
+  left: 191px;
+  background: #fff;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li ul {
+  clear: both;
+  margin: 0 10px;
+  box-sizing: border-box;
+  border-top: 1px solid #000000;
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li ul li {
+  width: 20%;
+  color: #888;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu {
+  margin-top: 10px;
+  width: 100%;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img2 {
+  background-position: -14px -68px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img3 {
+  background-position: -14px -114px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img4 {
+  background-position: -14px -165px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img5 {
+  background-position: -14px -209px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img6 {
+  background-position: -14px -257px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img7 {
+  background-position: -14px -306px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img8 {
+  background-position: -14px -350px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img9 {
+  background-position: -14px -400px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img10 {
+  background-position: -14px -445px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img11 {
+  background-position: -14px -492px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu .nav1-img12 {
+  background-position: -14px -635px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu div {
+  width: 53px;
+  height: 42px;
+  overflow: hidden;
+  background-image: url(../img/lf_pop_icon.png);
+  background-position: -14px -21px;
+  float: left;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu h4 {
+  font-size: 14px;
+  float: left;
+  color: #000;
+  font-family: 'Microsoft YaHei';
+  width: 90px;
+  height: 20px;
+  line-height: 20px;
+  padding-top: 17px;
+  font-weight: 700;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .havetu h6 {
+  font-weight: bold;
+  font-family: 'Microsoft YaHei';
+  margin-right: 10px;
+  float: right;
+  width: 30px;
+  font-size: 12px;
+  height: 20px;
+  line-height: 20px;
+  color: #666;
+  padding-top: 20px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li > ul li .notu h4 {
+  font-size: 14px;
+  float: left;
+  color: #000;
+  font-family: 'Microsoft YaHei';
+  width: 90px;
+  height: 20px;
+  line-height: 20px;
+  padding-top: 17px;
+  font-weight: 700;
+  padding-left: 15px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li:hover {
+  background: #a90100;
+  text-decoration: underline;
+  padding-left: 50px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li:hover .Sports-man {
+  display: block;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li:hover::before {
+  left: 15px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 > li:hover::after {
+  display: block;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list1::before {
+  background-position: 0 -54px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list2 .Sports-man {
+  top: -43px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list2::before {
+  background-position: 0px -98px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list3 .Sports-man {
+  top: -86px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list3::before {
+  background-position: 0px -146px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list4 .Sports-man {
+  top: -129px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list4::before {
+  background-position: 0px -193px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list5 .Sports-man {
+  top: -172px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list5::before {
+  background-position: 0px -239px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list6 .Sports-man {
+  top: -215px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list6::before {
+  background-position: 0px -288px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list7 .Sports-man {
+  top: -258px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list7::before {
+  background-position: 0px -338px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list8::before {
+  background-position: 0px -466px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list1 .nav3 .nav3_list9::before {
+  background-position: 0px -428px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list2 {
+  width: 67px;
+  background: #444444;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list3 {
+  width: 92px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list4 {
+  width: 92px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list5 {
+  width: 64px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list6 {
+  width: 64px;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list7 {
+  width: 165px;
+  float: left;
+  line-height: 0;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list7 img:nth-child(2) {
+  display: none;
+  position: relative;
+}
+#famousShoes .navigation .contaion .nav2 .nav2_list7:hover img:nth-child(2) {
+  display: block;
+  z-index: 1000;
+}
+#famousShoes .navigation .contaion .nav4 {
+  float: right;
+  width: 300px;
+  height: 34px;
+  margin-right: 14px;
+  line-height: 34px;
+}
+#famousShoes .navigation .contaion .nav4 li {
+  float: left;
+  font-size: 10px;
+  color: #fff;
+  box-sizing: border-box;
+  position: relative;
+}
+#famousShoes .navigation .contaion .nav4 .nav4_list1 {
+  width: 43px;
+}
+#famousShoes .navigation .contaion .nav4 .nav4_list2 {
+  width: 101px;
+  padding-left: 18px;
+}
+#famousShoes .navigation .contaion .nav4 .nav4_list2::after {
+  content: '';
+  height: 14px;
+  width: 15px;
+  background: url(../img/a.png);
+  position: absolute;
+  top: 9px;
+  /* right: 10px; */
+  left: 3px;
+}
+#famousShoes .navigation .contaion .nav4 .nav4_list3 {
+  width: 68px;
+  padding-left: 20px;
+}
+#famousShoes .navigation .contaion .nav4 .nav4_list3::after {
+  content: '';
+  height: 18px;
+  width: 15px;
+  background: url(../img/b.png);
+  position: absolute;
+  top: 7px;
+  /* right: 10px; */
+  left: 3px;
+}
+#famousShoes .navigation .contaion .nav4 .nav4_list4 {
+  width: 75px;
+  padding-left: 25px;
+}
+#famousShoes .navigation .contaion .nav4 .nav4_list4::after {
+  content: '';
+  height: 16px;
+  width: 17px;
+  background: url(../img/c.png);
+  position: absolute;
+  top: 7px;
+  /* right: 10px; */
+  left: 3px;
+}
+#famousShoes .nav_nanzi_pop {
+  display: none;
+  width: 668px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  background: #fff;
+  box-shadow: 0 0 3px #CCCCCC;
+  padding: 5px 0;
+  position: absolute;
+  top: 137px;
+  left: 465px;
+  z-index: 9999;
+}
+#famousShoes .nav_nanzi_pop .lv15_cats {
+  padding: 8px 0 13px;
+}
+#famousShoes .nav_nanzi_pop .lv15_cats li {
+  display: block;
+  float: left;
+  width: 140px;
+  padding-left: 22px;
+}
+#famousShoes .nav_nanzi_pop .lv15_cats li h4 {
+  font-size: 18px;
+  display: block;
+  padding-bottom: 7px;
+  height: 24px;
+  line-height: 24px;
+  color: #2a2a2a;
+  margin: 0;
+}
+#famousShoes .nav_nanzi_pop .lv15_cats li a {
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  line-height: 24px;
+  outline: none;
+  color: #555555;
+  vertical-align: bottom;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#famousShoes .nav_nanzi_pop .lv15_cats .brands {
+  width: 255px;
+  display: block;
+  float: left;
+  padding-left: 22px;
+}
+#famousShoes .nav_nanzi_pop .lv15_cats .brands a {
+  float: left;
+  height: 35px;
+  margin: 0 3px 3px 0;
+  width: 69px;
+}
+#famousShoes .nav_nvzi_pop {
+  display: none;
+  width: 668px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  background: #fff;
+  box-shadow: 0 0 3px #CCCCCC;
+  padding: 5px 0;
+  position: absolute;
+  top: 137px;
+  left: 648px;
+  z-index: 9999;
+}
+#famousShoes .nav_nvzi_pop .lv15_cats {
+  padding: 8px 0 13px;
+}
+#famousShoes .nav_nvzi_pop .lv15_cats li {
+  display: block;
+  float: left;
+  width: 140px;
+  padding-left: 22px;
+}
+#famousShoes .nav_nvzi_pop .lv15_cats li h4 {
+  font-size: 18px;
+  display: block;
+  padding-bottom: 7px;
+  height: 24px;
+  line-height: 24px;
+  color: #2a2a2a;
+  margin: 0;
+}
+#famousShoes .nav_nvzi_pop .lv15_cats li a {
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  line-height: 24px;
+  outline: none;
+  color: #555555;
+  vertical-align: bottom;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#famousShoes .nav_nvzi_pop .lv15_cats .brands {
+  width: 255px;
+  display: block;
+  float: left;
+  padding-left: 22px;
+}
+#famousShoes .nav_nvzi_pop .lv15_cats .brands a {
+  float: left;
+  height: 35px;
+  margin: 0 3px 3px 0;
+  width: 69px;
+}
+#famousShoes .nav_ertong_pop {
+  display: none;
+  width: 668px;
+  text-align: left;
+  font-family: Microsoft Yahei;
+  background: #fff;
+  box-shadow: 0 0 3px #CCCCCC;
+  padding: 5px 0;
+  position: absolute;
+  top: 137px;
+  left: 490px;
+  z-index: 9999;
+}
+#famousShoes .nav_ertong_pop .lv15_cats {
+  padding: 8px 0 13px;
+}
+#famousShoes .nav_ertong_pop .lv15_cats li {
+  display: block;
+  float: left;
+  width: 140px;
+  padding-left: 22px;
+}
+#famousShoes .nav_ertong_pop .lv15_cats li h4 {
+  font-size: 18px;
+  display: block;
+  padding-bottom: 7px;
+  height: 24px;
+  line-height: 24px;
+  color: #2a2a2a;
+  margin: 0;
+}
+#famousShoes .nav_ertong_pop .lv15_cats li a {
+  display: inline-block;
+  position: relative;
+  font-size: 12px;
+  line-height: 24px;
+  outline: none;
+  color: #555555;
+  vertical-align: bottom;
+  text-decoration: none;
+  white-space: nowrap;
+}
+#famousShoes #banner {
+  width: 100%;
+  height: 550px;
+  position: relative;
+}
+#famousShoes #banner .imglist {
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+#famousShoes #banner .imglist ul {
+  width: 100%;
+  height: 100%;
+  position: relative;
+}
+#famousShoes #banner .imglist ul li {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  left: 0;
+}
+#famousShoes #banner .imglist ul li img {
+  height: 100%;
+  width: 100%;
+}
+#famousShoes #banner .light {
+  width: 110px;
+  height: 14px;
+  position: absolute;
+  bottom: 30px;
+  left: 50%;
+}
+#famousShoes #banner .light span {
+  display: block;
+  float: left;
+  width: 14px;
+  height: 14px;
+  text-indent: -99px;
+  overflow: hidden;
+  background: #B5B5B5;
+  border-radius: 50%;
+  margin-right: 8px;
+  cursor: pointer;
+}
+#famousShoes #banner .light .active {
+  background: #c80002;
+}
+#famousShoes #banner .posibtn .prev {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  position: absolute;
+  left: 0;
+  top: 50%;
+  color: #ccc;
+  background: #999;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+#famousShoes #banner .posibtn .next {
+  width: 50px;
+  height: 50px;
+  font-size: 50px;
+  line-height: 50px;
+  position: absolute;
+  right: 0;
+  top: 50%;
+  color: #ccc;
+  background: #999;
+  border-radius: 50%;
+  text-align: center;
+  cursor: pointer;
+  display: none;
+}
+#famousShoes #banner:hover .prev {
+  display: block;
+}
+#famousShoes #banner:hover .next {
+  display: block;
+}
+#famousShoes .main1 {
+  width: 100%;
+  height: 440px;
+  background: #f0f0f0;
+}
+#famousShoes .main1 .contaion {
+  width: 1100px;
+  height: 440px;
+  margin: auto;
+  overflow: hidden;
+}
+#famousShoes .main1 .contaion h2 {
+  font-size: 25px;
+  color: #000;
+  line-height: 25px;
+  margin-top: 55px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+#famousShoes .main1 .contaion ul {
+  display: flex;
+  height: 336px;
+  width: 1100px;
+  flex-wrap: wrap;
+}
+#famousShoes .main1 .contaion ul li {
+  width: 16.5%;
+}
+#famousShoes .main2 {
+  width: 100%;
+  height: 946px;
+  background: #f0f0f0;
+}
+#famousShoes .main2 .contaion {
+  width: 1100px;
+  height: 946px;
+  margin: auto;
+  overflow: hidden;
+}
+#famousShoes .main2 .contaion h2 {
+  font-size: 41px;
+  color: #000;
+  line-height: 25px;
+  margin-top: 64px;
+  text-align: center;
+  margin-bottom: 15px;
+  font-weight: 650;
+}
+#famousShoes .main2 .contaion h4 {
+  font-size: 44px;
+  color: #000;
+  line-height: 44px;
+  text-align: center;
+  font-weight: 600;
+  margin-bottom: 46px;
+}
+#famousShoes .main2 .contaion ul {
+  display: flex;
+  height: 726px;
+  width: 1100px;
+  flex-wrap: wrap;
+  padding: 0 80px;
+}
+#famousShoes .main2 .contaion ul li {
+  margin-right: 15px;
+}
+#famousShoes .main3 {
+  width: 100%;
+  height: 806px;
+  background: #f0f0f0;
+}
+#famousShoes .main3 .contaion {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+  padding-top: 40px;
+}
+#famousShoes .main3 .contaion h2 {
+  font-size: 55px;
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  line-height: 55px;
+}
+#famousShoes .main3 .contaion h4 {
+  font-size: 45px;
+  color: #000;
+  text-align: center;
+  font-weight: 600;
+  line-height: 45px;
+  margin-top: 10px;
+}
+#famousShoes .main3 .contaion div {
+  width: 100%;
+  height: 389px;
+  text-align: center;
+  margin-top: 30px;
+  margin-bottom: 15px;
+}
+#famousShoes .main3 .contaion div img:nth-child(1) {
+  margin-right: 5px;
+}
+#famousShoes .main3 .contaion > img {
+  margin-left: 80px;
+}
+#famousShoes .main4 {
+  width: 100%;
+  background: #f0f0f0;
+  height: 295px;
+}
+#famousShoes .main4 .contaion {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+#famousShoes .main4 .contaion img {
+  margin-top: -31px;
+  margin-left: 60px;
+}
+#famousShoes .main5 {
+  width: 100%;
+  background: #db0d19;
+}
+#famousShoes .main5 .contaion {
+  width: 990px;
+  margin: auto;
+}
+#famousShoes .main5 .contaion ul {
+  display: flex;
+  justify-content: space-between;
+  flex-wrap: wrap;
+}
+#famousShoes .main5 .contaion ul li {
+  width: 237px;
+  height: 282px;
+  background: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+}
+#famousShoes .main5 .contaion ul li img {
+  height: 210px;
+  width: 210px;
+  margin-top: 2px;
+  margin-left: 13px;
+}
+#famousShoes .main5 .contaion ul li p {
+  height: 36px;
+  line-height: 18px;
+  padding-top: 4px;
+  color: #333;
+  font-size: 11px;
+}
+#famousShoes .main5 .contaion ul li div {
+  height: 22px;
+  line-height: 22px;
+  padding-left: 3px;
+  position: relative;
+}
+#famousShoes .main5 .contaion ul li div .price {
+  padding-right: .3rem;
+  font-size: 18px;
+  font-family: Microsoft Yahei;
+  font-weight: 700;
+  color: #f00;
+}
+#famousShoes .main5 .contaion ul li div .buy_btn {
+  display: block;
+  width: 65px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  position: absolute;
+  right: 3px;
+  bottom: 2px;
+}
+#famousShoes .main5 .contaion ul li:hover {
+  border: 1px solid #a90100;
+  box-sizing: border-box;
+}
+#famousShoes .main6 {
+  width: 100%;
+  background: #f0f0f0;
+  height: 295px;
+}
+#famousShoes .main6 .contaion {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+#famousShoes .main6 .contaion img {
+  margin-top: 25px;
+  margin-left: 60px;
+}
+#famousShoes .main7 {
+  width: 100%;
+  background: #db0d19;
+}
+#famousShoes .main7 .contaion {
+  width: 990px;
+  margin: auto;
+}
+#famousShoes .main7 .contaion ul {
+  display: flex;
+  justify-content: flex-start;
+  flex-wrap: wrap;
+}
+#famousShoes .main7 .contaion ul li {
+  width: 237px;
+  height: 282px;
+  background: #fff;
+  margin-top: 20px;
+  margin-bottom: 10px;
+  margin-right: 10px;
+}
+#famousShoes .main7 .contaion ul li img {
+  height: 210px;
+  width: 210px;
+  margin-top: 2px;
+  margin-left: 13px;
+}
+#famousShoes .main7 .contaion ul li p {
+  height: 36px;
+  line-height: 18px;
+  padding-top: 4px;
+  color: #333;
+  font-size: 11px;
+}
+#famousShoes .main7 .contaion ul li div {
+  height: 22px;
+  line-height: 22px;
+  padding-left: 3px;
+  position: relative;
+}
+#famousShoes .main7 .contaion ul li div .price {
+  padding-right: .3rem;
+  font-size: 18px;
+  font-family: Microsoft Yahei;
+  font-weight: 700;
+  color: #f00;
+}
+#famousShoes .main7 .contaion ul li div .buy_btn {
+  display: block;
+  width: 65px;
+  height: 18px;
+  line-height: 18px;
+  text-align: center;
+  color: #fff;
+  background: #000;
+  position: absolute;
+  right: 3px;
+  bottom: 2px;
+}
+#famousShoes .main7 .contaion ul li:hover {
+  border: 1px solid #a90100;
+  box-sizing: border-box;
+}
+#famousShoes .main8 {
+  width: 100%;
+  height: 440px;
+  background: #f0f0f0;
+  border-bottom: 5px solid #db0d19;
+  box-sizing: border-box;
+}
+#famousShoes .main8 .contaion {
+  width: 1100px;
+  height: 440px;
+  margin: auto;
+  overflow: hidden;
+}
+#famousShoes .main8 .contaion h2 {
+  font-size: 25px;
+  color: #000;
+  line-height: 25px;
+  margin-top: 55px;
+  text-align: center;
+  margin-bottom: 22px;
+}
+#famousShoes .main8 .contaion ul {
+  display: flex;
+  height: 336px;
+  width: 1100px;
+  flex-wrap: wrap;
+}
+#famousShoes .main8 .contaion ul li {
+  width: 16.5%;
+}
+#famousShoes .main9 {
+  width: 100%;
+  height: 179px;
+  background: #fff;
+  margin: auto;
+}
+#famousShoes .main9 ul {
+  width: 892px;
+  height: 143px;
+  border-top: 1px solid #ccc;
+  border-left: 1px solid #ccc;
+  box-sizing: border-box;
+  margin-top: 10px;
+  display: flex;
+  margin: 10px auto;
+  flex-wrap: wrap;
+}
+#famousShoes .main9 ul li {
+  width: 99px;
+  height: 70px;
+  float: left;
+  border-right: 1px solid #ccc;
+  background: url(../img/main9_list1.png);
+  border-bottom: 1px solid #ccc;
+  box-sizing: border-box;
+}
+#famousShoes .main9 ul li:nth-child(1) {
+  background-position: 17px -175px;
+}
+#famousShoes .main9 ul li:nth-child(2) {
+  background-position: -102px -175px;
+}
+#famousShoes .main9 ul li:nth-child(3) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(4) {
+  background-position: -835px -332px;
+}
+#famousShoes .main9 ul li:nth-child(5) {
+  background-position: -593px -177px;
+}
+#famousShoes .main9 ul li:nth-child(6) {
+  background-position: 17px -256px;
+}
+#famousShoes .main9 ul li:nth-child(7) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(8) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(9) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(10) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(11) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(12) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(13) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(14) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(15) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(16) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(17) {
+  background-position: -714px -332px;
+}
+#famousShoes .main9 ul li:nth-child(18) {
+  background-position: -714px -332px;
+}
+#famousShoes .main10 {
+  width: 100%;
+  height: 238px;
+}
+#famousShoes .main10 .contaion {
+  width: 1100px;
+  height: 100%;
+  margin: auto;
+}
+#famousShoes .main10 .contaion div:nth-child(1) {
+  height: 36px;
+  width: 990px;
+  margin: 0 auto 28px;
+  clear: both;
+  border-bottom: 1px solid #ccc;
+  position: relative;
+}
+#famousShoes .main10 .contaion div:nth-child(1) h3 {
+  font-size: 18px;
+  position: absolute;
+  left: 50%;
+  margin: 12px 0 0 -60px;
+  background: #fff;
+  padding: 10px 20px;
+  font-weight: 100;
+}
+#famousShoes .main10 .contaion .xiezi {
+  width: 1030px;
+}
+#famousShoes .main10 .contaion .xiezi dl {
+  width: 247px;
+  height: 184.2px;
+  float: left;
+  margin-right: 10px;
+}
+#famousShoes .main10 .contaion .xiezi dl:nth-last-child(1) {
+  margin-right: 0;
+}
+#famousShoes .main10 .contaion .xiezi dl dt {
+  width: 245px;
+  height: 99.2px;
+  text-align: center;
+}
+#famousShoes .main10 .contaion .xiezi dl dt s {
+  text-align: center;
+  display: block;
+  font-size: 14px;
+}
+#famousShoes .main10 .contaion .xiezi dl dt img {
+  width: 80px;
+  height: 80px;
+}
+#famousShoes .main10 .contaion .xiezi dl dd {
+  border-right: 1px dotted #ccc;
+  height: 85px;
+  overflow: hidden;
+  padding: 0 10px 0 15px;
+}
+#famousShoes .main10 .contaion .xiezi dl dd i {
+  color: #555;
+  display: block;
+  float: left;
+  margin-bottom: 10px;
+  white-space: nowrap;
+  width: 54px;
+  font-size: 12px;
+  text-decoration: none;
+}
+#famousShoes .main11 {
+  width: 100%;
+  height: 50px;
+  margin: auto;
+  border-bottom: 2px solid #ce3c3b;
+}
+#famousShoes .main11 div {
+  text-align: center;
+  margin-top: 30px;
+}
+#famousShoes .main12 {
+  background: #f8f8f8;
+  width: 990px;
+  margin: auto;
+}
+#famousShoes .main12 .row {
+  padding: 15px;
+  background: #f5f5f5;
+  border-bottom: 1px solid #e8e8e8;
+}
+#famousShoes .main12 .row .ewm {
+  height: 195px;
+  width: 220px;
+  border-right: 1px solid #dedede;
+  float: left;
+  position: relative;
+}
+#famousShoes .main12 .row .ewm img {
+  width: 176px;
+  height: 186px;
+}
+#famousShoes .main12 .row .ftli {
+  border-left: 1px solid #fff;
+  height: 195px;
+  padding-left: 40px;
+  display: flex;
+  line-height: 1.6em;
+  justify-content: space-between;
+}
+#famousShoes .main12 .row .ftli li {
+  display: block;
+  width: 186px;
+  float: left;
+}
+#famousShoes .main12 .row .ftli li h6 {
+  display: block;
+  height: 36px;
+  margin: 5px 0 25px;
+}
+#famousShoes .main12 .row .ftli li h6 img {
+  color: #333;
+}
+#famousShoes .main12 .row .ftli li h5 {
+  display: block;
+  margin: 0 0 6px;
+  font-size: 14px;
+  color: #666;
+  font-family: '瀹嬩綋';
+}
+#famousShoes .main12 .row .ftli li .c999 {
+  color: #999;
+}
+#famousShoes .main12 .row2 {
+  text-align: center;
+  padding: 20px 0;
+}
+#famousShoes .main12 .row2 span {
+  color: #ccc;
+  font-family: '瀹嬩綋';
+  width: 1110px;
+  height: 12px;
+}
+#famousShoes .main12 .row2 span a {
+  color: #777;
+  width: 60px;
+  height: 12px;
+}
+#famousShoes .main12 .row2 s {
+  font-size: 20px;
+  color: #c00;
+  font-weight: 700;
+}
+#famousShoes .main12 .row3 {
+  width: 640px;
+  height: 50px;
+  margin: 0 auto 30px;
+}
+#famousShoes .main12 .row3 a {
+  float: left;
+  width: 112px;
+  height: 47px;
+  margin-right: 10px;
+  color: #333;
+  text-decoration: none;
+}
+#famousShoes .main13 {
+  position: fixed;
+  width: 37px;
+  height: 100%;
+  overflow: visible;
+  top: 0;
+  right: 0;
+  z-index: 999999;
+  background: transparent;
+  background: #000;
+}
+#famousShoes .main13 .c-active {
+  background-color: #BD0000 !important;
+}
+#famousShoes .main13 .c1 {
+  position: relative;
+  width: 41px;
+  height: 157px;
+  border-bottom-left-radius: 2px;
+  top: 0;
+  left: 0px;
+  cursor: pointer;
+  background-color: #000;
+}
+#famousShoes .main13 .c1 div {
+  width: 20px;
+  display: block;
+  font-size: 18px;
+  line-height: 22px;
+  top: 48px;
+  left: 6px;
+  position: absolute;
+  padding: 0 3px;
+  text-align: center;
+  color: #fff;
+}
+#famousShoes .main13 .c1 span {
+  position: absolute;
+  left: 0px;
+  top: 0px;
+  width: 37px;
+  height: 35px;
+  background: url(../img/rbar_icon.png) no-repeat;
+  background-position: 7px 14px;
+}
+#famousShoes .main13 .c2 {
+  height: 122px;
+  margin-top: 23px;
+  background-color: #000;
+  cursor: pointer;
+  z-index: 9;
+  position: relative;
+  left: 0;
+  width: 37px;
+}
+#famousShoes .main13 .c2 span {
+  position: absolute;
+  left: 0px;
+  top: 0;
+  width: 37px;
+  height: 35px;
+  background: url(../img/rbar_icon.png) no-repeat;
+  background-position: 6px -29px;
+}
+#famousShoes .main13 .c2 div {
+  font-size: 12px;
+  text-align: center;
+  color: #fff;
+  display: block;
+  left: 8px;
+  top: 40px;
+  width: 20px;
+  line-height: 16px;
+  overflow: hidden;
+  padding: 0;
+  position: absolute;
+}
+#famousShoes .main13 .c3 {
+  margin: 8px 0px;
+  background-color: #000;
+  cursor: pointer;
+  z-index: 9;
+  position: relative;
+  left: 0;
+  width: 37px;
+  height: 35px;
+}
+#famousShoes .main13 .c3 .car {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 37px;
+  height: 35px;
+  background: url(../img/rbar_icon.png) no-repeat;
+  background-position: 6px -77px;
+}
+#famousShoes .main13 .c3 .che {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  right: 47px;
+  top: 0px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+#famousShoes .main13 .c3 .che .che-1 {
+  position: absolute;
+  top: 10px;
+  right: -8px;
+  color: #494949;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+}
+#famousShoes .main13 .c3 .car-border {
+  position: absolute;
+  top: -5px;
+  left: 5px;
+  height: 33px;
+  width: 25px;
+  border-top: 1px solid #676767;
+}
+#famousShoes .main13 .c4 {
+  margin: 8px 0px;
+  background-color: #000;
+  cursor: pointer;
+  z-index: 9;
+  position: relative;
+  left: 0;
+  width: 37px;
+  height: 35px;
+}
+#famousShoes .main13 .c4 .order {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 37px;
+  height: 35px;
+  background: url(../img/rbar_icon.png) no-repeat;
+  background-position: 10px -119px;
+}
+#famousShoes .main13 .c4 .tip {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  right: 47px;
+  top: 0px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+#famousShoes .main13 .c4 .tip .tip_1 {
+  position: absolute;
+  top: 10px;
+  right: -8px;
+  color: #494949;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+}
+#famousShoes .main13 .c5 {
+  left: 0;
+  width: 37px;
+  height: 35px;
+  background-color: #000;
+  position: absolute;
+  bottom: 90px;
+}
+#famousShoes .main13 .c5 .favor {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 37px;
+  height: 35px;
+  background: url(../img/rbar_icon.png) no-repeat;
+  background-position: 7px -218px;
+}
+#famousShoes .main13 .c5 .shoucang {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  right: 47px;
+  top: 0px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+#famousShoes .main13 .c5 .shoucang .arr {
+  position: absolute;
+  top: 10px;
+  right: -8px;
+  color: #494949;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+}
+#famousShoes .main13 .c6 {
+  position: absolute;
+  bottom: 50px;
+  left: 0;
+  width: 37px;
+  height: 35px;
+}
+#famousShoes .main13 .c6 .share_1 {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 37px;
+  height: 35px;
+  background: url(../img/rbar_icon.png) no-repeat;
+  background-position: 8px -273px;
+}
+#famousShoes .main13 .c7 {
+  position: absolute;
+  bottom: 10px;
+  left: 0;
+  width: 37px;
+  height: 35px;
+}
+#famousShoes .main13 .c7 .totop {
+  position: absolute;
+  left: 0;
+  top: 0;
+  width: 37px;
+  height: 35px;
+  background: url(../img/rbar_icon.png) no-repeat;
+  background-position: 7px -324px;
+  display: none;
+}
+#famousShoes .main13 .c7 .gotop {
+  display: none;
+  position: absolute;
+  font-size: 12px;
+  right: 47px;
+  top: 0px;
+  width: 90px;
+  height: 35px;
+  line-height: 35px;
+  text-align: center;
+  color: #fff;
+  background-color: #494949;
+}
+#famousShoes .main13 .c7 .gotop .top_1 {
+  position: absolute;
+  top: 10px;
+  right: -8px;
+  color: #494949;
+  width: 16px;
+  height: 16px;
+  line-height: 16px;
+  text-align: center;
+  font-size: 16px;
+  font-family: "\5b8b\4f53";
+}
+#famousShoes .main13 .plugins {
+  display: none;
+  position: absolute;
+  top: 0;
+  left: 37px;
+  width: 230px;
+  height: 100%;
+  background-color: #666;
+  padding-left: 7px;
+  padding-bottom: 20px;
+}
+#famousShoes .main13 .plugins > a {
+  display: block;
+  margin-top: 8px;
+}
+#famousShoes .main13 .plugins > a:nth-child(6) {
+  width: 125px;
+  margin: 15px auto 5px;
+}
+#famousShoes .main13 .plugins .other_hd a {
+  display: inline-block;
+  width: 106px;
+  height: 28px;
+  line-height: 28px;
+  font-size: 12px;
+  text-align: center;
+  text-decoration: none;
+  color: #d0d0d0;
+  background-color: #4c4c4c;
+  margin-right: 3px;
+  margin-top: 3px;
+  transition: all .3s;
+}
+#famousShoes .main13 .plugins1 {
+  display: block;
+  position: absolute;
+  top: 0;
+  left: 37px;
+  width: 230px;
+  height: 100%;
+  background-color: #323232;
+  color: #fff;
+  padding: 7px 0 0 7px;
+}
+#famousShoes .main13 .plugins1 ul {
+  list-style: none;
+  padding-bottom: 20px;
+  position: absolute;
+}
+#famousShoes .main13 .plugins1 ul li {
+  margin-bottom: 20px;
+}
+#famousShoes .main13 .plugins1 ul li a {
+  display: inline-block;
+  width: 70px;
+  height: 35px;
+  line-height: 35px;
+  color: #fff;
+  font-size: 12px;
+  background: #4c4c4c url(../img/sr_brands.png) no-repeat;
+  text-indent: -999em;
+  text-align: center;
+  text-decoration: none;
+  margin: 0 2px 2px 0;
+  background-position: -2px -2px;
+}
+
+/*# sourceMappingURL=index.css.map */
